@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+   background: linear-gradient(182deg, #f45f1e 35%, #f2821e 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border: solid 5px rgb(17, 17, 17);
+  height: 85vh;
+  width: 70%;
+  border-radius: 25px;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+.log-container {
+  border: solid 5px rgb(17, 17, 17);
+  height: 85vh;
+  width: 70%;
+  border-radius: 25px;
+}
+
+.cont {
+  background: linear-gradient(182deg, #f45f1e 35%, #f2821e 70%);
+  height: 40%;
+  border-radius: 21px 21px 0px 90px;
+}
+
+.log-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.img {
+  height: 110px;
+  width: 110px;
+}
+
+.div-link {
+  text-align: end;
+  width: 90%;
+}
+.div-link a {
+  text-decoration: none;
+  color: #fdf2e9;
+  font-weight: 600;
+}
+
+.input-box {
+  border-radius: 23px;
+  height: 30%;
+  width: 90%;
+  margin: auto;
+}
+
+.inp {
+  height: 50%;
+  padding: 30px;
+}
+
+.inp-div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  box-shadow: 2px 7px 19px -8px rgb(209, 208, 208);
+  height: 40px;
+  width: 100%;
+}
+
+.inp-div i {
+  color: #999999;
+  font-size: 17px;
+  padding-left: 8px;
+}
+
+.inp-div input {
+  height: 36px;
+  border: none;
+  width: 92%;
+  padding: 10px;
+  text-decoration: unset !important;
+  background-color: transparent;
+}
+.inp-div input:focus {
+  outline: none;
+}
+.inp-div input::placeholder{
+color: #999999;
+font-size: 12px;
+}
+
+.inp-div input:focus::placeholder{
+  opacity: 0.5;
+  
+}
+
+
+.for-box {
+  text-align: right;
+  padding-top: 12px;
+}
+.for-box a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 12px;
+}
+.div-btn {
+  width: 67%;
+  margin: 50px auto;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(45deg, #f45f1e 15%, #f2821e 26%, #f45f1e 85%);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-box {
+  font-size: 13px;
+  font-weight: 500;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box p {
+  color: #999999;
+}
+
+.login-box p a {
+  color: #f2821e;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-box p a:hover {
+  text-decoration: underline;
+}
+
+#btn-box {
+  width: 65%;
+  margin: 90px auto 0 auto;
+} 
+
+#reg-btn {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.back{
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 15px !important;
+}
+
+@media only screen and (max-width: 900px) {
+ .input-box{
+    width: 100%;
+ }
+
+}
+
+@media only screen and (max-width: 415px){
+    .input-box{
+        width: 100%;
+        padding: 0;
+     }
+
+    .inp-div{
+        width: 100% !important;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .log-container{
+        width: 90%;
+
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+  .log-container{
+    width: 100%;
+    height: 100%;
+    border:none;
+  border-radius: 0;
+}
+.cont{
+  border-radius: 0 0 0 90px;
+}
+
+.home-container{
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+}
+
+.inp-div i {
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.big-mail{
+  font-size: 15px !important;
+}
+
+.inp-div input::placeholder {
+    font-size: 12px;
+}
+
+.for-box a{
+  font-size: 12px;
+}
+
+.login-box {
+  font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 540px){
+     .login-box{
+         margin: 0;
+         padding: 0;
+     }
+     .div-btn {
+        margin: 20px auto;
+      }
+}
+
+@media only screen and (max-width: 1024px){
+  .log-container{
+    height: 100%;
+    width: 100%;
+  }
+  .home-container{
+    height: 100vh;
+
+  }
+
+    .div-btn {
+        margin: 35px auto;
+      }
+      .login-box{
+        height: 40px;
+      }
+
+      #reg-cont{
+        height: 100vh;
+      }
+      #media-inp{
+        height: 30%;
+        margin: 0 auto;
+      }
+
+      #fName , #email , #num , #pass{
+        margin-top: 10px;
+      }
+}
+
+@media only screen and (max-width: 1280px){
+    .div-btn {
+        margin: 32px auto;
+      }
+}
+
